@@ -12,10 +12,9 @@ def first_challenge
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
     }
   }
-
   #your code here
   contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
-  end
+  
   puts contacts
   #remember to return your newly altered contacts hash!
   contacts
