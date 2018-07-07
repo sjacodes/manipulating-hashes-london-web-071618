@@ -18,9 +18,8 @@ def first_challenge
         if key === :favorite_icecream_flavors
           data.delete_if {value == "strawberry"}
         end
+      end
     end
     contacts
-  #remember to return your newly altered contacts hash!
-end
-  
+  end
  
