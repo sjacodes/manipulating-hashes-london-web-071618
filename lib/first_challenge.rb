@@ -14,13 +14,5 @@ def first_challenge
   }
   contacts.each do |person, data|
     if person === "Freddy Mercury"
-      data.each do |key, value|
-        if key === :favorite_icecream_flavors
-          data.delete_if {|x| x >= "strawberry"}
-        end
-      end
-    end
-  end
-  contacts
-end
+    
  
