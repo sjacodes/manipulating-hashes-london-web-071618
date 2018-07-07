@@ -16,7 +16,7 @@ def first_challenge
     if person === "Freddy Mercury"
       data.each do |key, value|
         if key === :favorite_icecream_flavors
-          data.delete_if {value == "strawberry"}
+          data.delete_if {|x| x >= "strawberry"}
         end
       end
     end
